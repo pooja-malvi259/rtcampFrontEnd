@@ -1,0 +1,81 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000;
+}
+
+
+/***********************************
+			Header CSS
+************************************/
+
+.container-header {
+    margin: 20px 50px 20px 200px;
+}
+
+.home-link a {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home-link a:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.dash-link a {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dash-link a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.link {
+    text-align: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.navigation {
+    padding: 0px;
+    background-color: #e8ad5a;
+}
+
+.navbar {
+    margin: 0px 50px 0px 200px;
+}
+
+.nav-item a {
+    color: #000;
+}
+
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus {
+    background-color: #cfa05e;
+    color: #000;
+}
