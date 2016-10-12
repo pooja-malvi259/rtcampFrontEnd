@@ -1,6 +1,6 @@
 <!--FrontEnd Assignment
-	Author:Pooja Malvi
-	Provided by: rtCamp-->
+    Author:Pooja Malvi
+    Provided by: rtCamp-->
 <!DOCTYPE html>
 <html>
 
@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>rtCamp</title>
+    <script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8" async defer></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="fonts/fonts.css">
@@ -16,25 +17,37 @@
 
 <body>
     <div class="container-header">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 home-link">
-                <h1><a href="javscript:void(0)">rtPanel</a></h1>
+        <div class="container-inside-header">
+            <div class="row">
+                <div class="dash-link pull-right">
+                    <a href="javscript:void(0)" class="link">HOME</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javscript:void(0)" class="link">CONTACT US</a>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-4 dash-link">
-                <a href="javscript:void(0)" class="link">HOME</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javscript:void(0)" class="link">CONTACT US</a>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 home-link">
+                    <a href="javscript:void(0)">
+                        <img src="images/Logo.png" class="img-responsive" alt="rtCamp-Pune">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p style="text-align: right;"><small>EXHIBITION</small></p>
+                </div>
+                <div class="col-sm-9">
+                    <form class="form-inline navbar-form pull-right " method="get" action="http://www.google.com/search">
+                        <input type="text" name="g" size="31" value="" maxlength="255" placeholder="Google Search">
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <form class="form-inline navbar-form pull-right " method="get" action="http://www.google.com/search">
-                <input type="text" name="g" size="31" value="" maxlength="255" placeholder="Google Search">
-            </form>
-        </div>
+    </div>
     </div>
     <div class="navigation">
         <div class="row">
             <nav class=" navbar navbar-light bg-faded ">
                 <ul class="nav navbar-nav ">
-                    <li class="nav-item active ">
+                    <li class="nav-item">
                         <a class="nav-link " href="javscript:void(0)">PARTICIPANTS <span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item ">
@@ -64,31 +77,147 @@
     </div>
     <div class="clear"></div>
     <div class="container">
-        <div class="row">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="img_nature_wide.jpg" style="width:100%">
+        <div class="row row-with-border">
+            <div class="col-sm-8">
+            </div>
+            <div class="col-sm-4 jumbotron side-panel">
+                <h2>Welcome to rtPanel</h2>
+                <div>
+                    <img src="images/avatar.png" align="left" class="img-responsive side-img" alt="No profile"> Die dreigt tunnel men verren als worden voeren moeite. Bovendien prachtige het dus mengeling. Ze erin ad of alle veel iets. Bedraagt nu geringer af al centraal te. Toppen mensch er kisten en denken goping ze al kregen. Moerassen bovendien are gelukkige degelijke duimbreed zoo ver dik. Fransche gewonnen mee wij mag des behoefte mijnbouw. Duimbreed mee brandhout gif aanvoeren verkregen belasting men. Had speurzin afgetapt hun aan gebracht goa. Eens land zes geld met stad lot.
                 </div>
-                <div class="mySlides fade">
-                    <img src="img_fjords_wide.jpg" style="width:100%">
+                <br/>
+                <a href="javascript:void(0)">Read more..</a>
+            </div>
+        </div>
+        <hr>
+        <div class="row video-slider">
+            Video Silder
+        </div>
+        <hr>
+        <div class="row glimpse">
+            <div class="col-sm-8 box">
+                <p class="text-with-bg">Glimpse of Exhibition</p>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/Game1.jpg" class="img-responsive img-glimpse" alt="">
+                        <a>Football</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Game3.jpg" class="img-responsive  img-glimpse" alt="">
+                        <a>Golf</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Game5..jpg" class="img-responsive img-glimpse" alt="">
+                        <a>Basket Ball</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Game7.jpg" class="img-responsive img-glimpse" alt="">
+                        <a>Tennis</a>
+                    </div>
                 </div>
-                <div class="mySlides fade">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
-                </div>
-                <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/Game2.jpg" class="img-responsive img-glimpse" alt="">
+                        <a>Football</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Game4.jpg" class="img-responsive  img-glimpse" alt="">
+                        <a>Golf</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Game6.jpg" class="img-responsive img-glimpse" alt="">
+                        <a>Tennis</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Game8.jpg" class="img-responsive img-glimpse" alt="">
+                        <a>Basket Ball</a>
+                    </div>
                 </div>
             </div>
-            <br>
+            <div class="col-sm-4 news">
+                <p class="text-with-bg">News</p>
+            </div>
         </div>
+        <hr>
+        <div class="row social row-with-border">
+            <div class="col-sm-3 box">
+                <p class="text-with-bg">Tweets</p>
+            </div>
+            <div class="col-sm-5 box">
+                <p class="text-with-bg">Follow us on Facebook</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-with-bg">Weather</p>
+                <hr>
+                <p class="text-with-bg">Date and Time</p>
+            </div>
+        </div>
+        <div class="our-partners">
+            <p class="text-with-bg">Our partners</p>
+            Slider Logos
+        </div>
+        <hr>
+    </div>
+    <div class="clear"></div>
+    <div class="footer-block">
+        <div class="row container-footer">
+            <div class="col-sm-4">
+                <p><strong>Pages</strong></p>
+                <hr class="hr-black">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="javscript:void(0)">Home</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">About</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">Participants</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">Exhibition program</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">Media</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <p><strong>Important Links</strong></p>
+                <hr class="hr-black">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="javscript:void(0)">www.rtcamp.com</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">www.devilsworkshop.org</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">www.rtpanel.com</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">www.bloggertowp.com</a>
+                    </li>
+                    <li>
+                        <a href="javscript:void(0)">www.wpngnix.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <a>
+                    <img src="images/Logo.png" class="img-responsive logo" alt="rtCamp-Pune">
+                </a>
+                <p style="text-align: center;">
+                    Copyrights &nbsp; 2012. All rights reserved
+                    <br> Terms of Use | Privacy Policy | Designed by rtCamp
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-disclaimer">
+        <p>
+            <strong>Disclaimer:</strong>Die dreigt tunnel men verren als worden voeren moeite. Bovendien prachtige het dus mengeling. Ze erin ad of alle veel iets. Bedraagt nu geringer af al centraal te. Toppen mensch er kisten en denken goping ze al kregen.
+        </p>
     </div>
 </body>
 
