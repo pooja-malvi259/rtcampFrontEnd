@@ -1,1 +1,1 @@
-<?php header( 'E:\Work\Sem 7\rtcamp Project\index.html' ) ;  ?>
+<?php header( 'index.html' ) ;  ?>
