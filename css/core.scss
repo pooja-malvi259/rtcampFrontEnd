@@ -35,7 +35,7 @@ body {
     color: rgba(0, 0, 0, 0.75);
 }
 
-.dash-link a {
+#dash-link a {
     color: #000;
     font-size: 13px;
     font-weight: bold;
@@ -43,7 +43,7 @@ body {
     text-decoration: none;
 }
 
-.dash-link a:hover {
+#dash-link a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -89,9 +89,18 @@ body {
               Slideshow
 ************************************/
 
+.slider {
+    padding: 0;
+}
+
 .slide-img {
     width: 100%;
     height: 100%;
+}
+
+.carousel-control {
+    top: 50%;
+    opacity: 1;
 }
 
 
@@ -109,8 +118,8 @@ body {
     border-radius: 0;
 }
 
-.side-panel {
-    padding-top: 10px;
+.row-with-border .side-panel {
+    padding-bottom: 0;
 }
 
 .side-panel a {
@@ -155,6 +164,7 @@ body {
     font-size: 60px;
 }
 
+
 /********************************
             Glimpse
 ********************************/
@@ -168,12 +178,14 @@ body {
     transition-duration: 0.4s;
     transition-property: transform;
 }
+
 .img-glimpse:hover {
     transform: scale(1.1);
     -webkit-box-shadow: 5px 8.66px 36.8px 3.2px rgba(230, 195, 110, 0.65);
     -ms-box-shadow: 5px 8.66px 36.8px 3.2px rgba(230, 195, 110, 0.65);
     box-shadow: 5px 8.66px 36.8px 3.2px rgba(230, 195, 110, 0.65);
 }
+
 .glimpse a {
     color: #00f;
 }
@@ -187,7 +199,7 @@ body {
     margin-top: 10px;
 }
 
-.fa {
+.video-slider .fa {
     color: #e6c36e;
     font-size: 30px;
     border-color: rgba(230, 195, 110, 0.25);
@@ -197,7 +209,7 @@ body {
     transition-property: transform;
 }
 
-.fa:hover {
+.video-slider .fa:hover {
     transform: scale(1.1);
     -webkit-box-shadow: 5px 8.66px 36.8px 3.2px rgba(230, 195, 110, 0.75);
     -ms-box-shadow: 5px 8.66px 36.8px 3.2px rgba(230, 195, 110, 0.75);
@@ -226,7 +238,6 @@ body {
     background-color: #947f4b;
 }
 
-.container-footer ul li a
-{
+.container-footer ul li a {
     color: #000;
 }
