@@ -95,15 +95,21 @@ body {
 
 .slide-img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .carousel-control {
     top: 50%;
     opacity: 1;
 }
+.rightest{ visibility: visible;}
 
-
+.carousel-inner .active.left  { left: -16.67%;             }
+.carousel-inner .active.right { left: 16.67%;              }
+.carousel-inner .next         { left: 16.67%               }
+.carousel-inner .prev         { left: -16.67%              }
+.carousel-control.left        { background-image: none; }
+.carousel-control.right       { background-image: none; }
 /*******************************
               Side Panel
 *******************************/
@@ -237,7 +243,10 @@ body {
     padding: 0px 50px 0px 200px;
     background-color: #947f4b;
 }
-
+.footer-disclaimer p
+{
+    margin: 0;
+}
 .container-footer ul li a {
     color: #000;
 }
