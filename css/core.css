@@ -59,6 +59,10 @@ body {
     padding: 0px;
     background-color: #e6c36e;
 }
+.row
+{
+    margin-right: 0;
+}
 
 .navbar {
     margin: 0px 50px 0px 200px;
@@ -95,7 +99,7 @@ body {
 
 .slide-img {
     width: 100%;
-    height: auto;
+    height: 66.66%;
 }
 
 .carousel-control {
@@ -119,13 +123,13 @@ body {
 }
 
 .row-with-border .jumbotron {
-    margin: 0;
+    margin-bottom: 0px;
     padding: 30px;
     border-radius: 0;
 }
 
 .row-with-border .side-panel {
-    padding-bottom: 0;
+    padding-bottom: 45px;
 }
 
 .side-panel a {
